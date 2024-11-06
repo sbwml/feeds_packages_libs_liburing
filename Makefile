@@ -5,7 +5,7 @@ PKG_VERSION:=2.7
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://git.kernel.dk/cgit/liburing/snapshot
+PKG_SOURCE_URL:=https://github.com/sbwml/feeds_packages_libs_liburing/releases/download/$(PKG_VERSION)
 PKG_HASH:=29c0897868cb612b71728e680fa5fac4c5c9fc51166d8c42a0261f061f4658ae
 
 PKG_MAINTAINER:=Christian Lachner <gladiac@gmail.com>
